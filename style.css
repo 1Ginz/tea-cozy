@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+header {
+    display: inline-block;
+    height: 69px;   
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    background-color: black;
+}
+header img {
+    float: left;
+    height: 50px;
+    left: 10px;
+}
+header nav {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a {
+    color: seashell;
+    text-decoration: underline;
+    padding: 20px;
+}
+.main {
+    position: relative;
+    background-image: url('./source/img-mission-background.webp');
+    top: 70px;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+article {
+    text-align: center;
+}
+.month {
+    top: 70px;
+    position: relative;
+    width: 1000px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.location {
+    top: 70px;
+    position: relative;
+    background-image: url('./source/img-locations-background.webp');
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.location h2 {
+    padding-bottom: 15px;
+    text-align: center;
+}
+.info {
+    display: flex;
+    justify-content: left;
+}
+.info article {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: 40px;
+    height: 250px;
+}
+footer {
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+.copyright {
+    position: relative;
+    top: 70px;
+    text-align: right;
+    font-size: 14px;
+}
