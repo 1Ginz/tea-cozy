@@ -4,11 +4,12 @@ body {
     color: seashell;
     opacity: 0.9;
     font-family: Helvetica, sans-serif;
+}
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 header {
     display: inline-block;
@@ -19,6 +20,7 @@ header {
     top: 0px;
     z-index: 1;
     background-color: black;
+    width: 100%;
 }
 header img {
     float: left;
@@ -106,6 +108,7 @@ footer {
 .copyright {
     position: relative;
     top: 70px;
-    text-align: right;
     font-size: 14px;
+    width: 100%;
+    right: 0%;
 }
