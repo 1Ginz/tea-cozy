@@ -65,12 +65,13 @@ article {
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 .img img {
     height: 200px;
-    width: 300px;
-    margin-bottom: 10px;
+    max-width: 300px;
+    margin: 10px;
 }
 .location {
     top: 70px;
